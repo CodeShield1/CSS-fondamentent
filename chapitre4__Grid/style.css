@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr; /* 2 colonnes : sidebar + contenu */
+  grid-template-rows: 80px 1fr 60px; /* header + contenu + footer */
+  gap: 10px;
+  height: 100vh; /* hauteur de la fenêtre */
+}
+
+.header{
+    background: yellowgreen;
+    color: white;
+    text-align: center;
+    grid-column: 1/3;
+      line-height: 80px;
+      
+
+
+
+}
+.sidebar {
+  background: rgb(199, 110, 15);
+  padding: 10px;
+  
+}
+.content {
+  background: rgb(21, 27, 215);
+    padding: 10px;
+
+
+}
+.footer {
+  background: lightgray;
+    grid-column: 1/3;
+      padding: 10px;
+
+  
+}
